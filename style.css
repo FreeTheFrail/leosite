@@ -1,0 +1,224 @@
+
+
+@font-face {font-family: Viking; src: url('Viking.ttf'); }
+
+@media (prefers-color-scheme: dark) {
+       body {
+     color: #FFFFFF;
+     /*background: #35363a;*/
+     background: #2f003b;
+     /*background: #387d7d;*/
+     /*background-image: url("media/bg_dark.png");*/
+     }
+
+     a:link {
+         /*color: #809fff;
+         color: #FF0000;*/
+         color: #73c9b2;
+     }
+
+     a:visited {
+         color: #06916c;
+     }
+
+     a:active {
+         color: #7ae0ff;
+     }
+
+     .index aside img {
+         filter: invert(1);
+     }
+
+}
+
+@media (prefers-color-scheme: light) {
+     body {
+         color: #000000;
+         background: linear-gradient(#9cffeb, #0dd182);
+         /*background-image: url("media/bg_light.png");*/
+     }
+
+     a:link {
+         /*color: #809fff;
+         color: #FF0000;*/
+         color: #d9164a;
+     }
+
+     a:visited {
+         /*color: #f96e93;*/
+         color: #d9164a;
+     }
+
+     a:active {
+         /*color: #851f00;*/
+         color: #ff8c8c
+     }
+
+
+}
+
+html {
+     font-family: Viking, serif;
+}
+
+
+
+body {
+     max-width: 920px;
+     margin-top: 2%;
+     margin-bottom: 2%;
+     margin-left: auto;
+     margin-right: auto;
+     min-height: 100vh;
+     padding-left: 2%;
+     padding-right: 2%;
+     padding-bottom: 100px;
+     position: relative;
+     height: 100%;
+
+     /*font-size: 18px;*/
+}
+
+body::after {
+    /*height: 100px;*/
+}
+
+footer {
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     text-align: center;
+     height: 100px;
+}
+
+.center {
+     text-align: center;
+}
+
+div.ind {
+     text-indent: 50px;
+}
+
+@media(min-width: 640px) {
+     .phones {
+         display: none;
+     }
+}
+
+.indented {
+     padding-left: 50pt;
+       padding-right: 50pt;
+}
+
+.index {
+     display: flex;
+}
+
+.index article {
+     flex: 1;
+}
+
+.index aside {
+     width: 25%;
+     margin-left: 2%;
+     border: 2px solid black;
+     background-image: url("media/thecave.png");
+}
+
+
+.index aside img {
+     display: block;
+     margin: auto;
+     border-radius: 5px;
+}
+
+.index aside p {
+     text-align: center;
+}
+
+.blist p {
+     font-size: .9rem;
+}
+
+.mobile_aside img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 5px;
+}
+
+.mobile_aside p {
+     text-align: center;
+}
+
+@media(max-width: 640px) {
+     .index aside {
+         display: none;
+     }
+}
+
+.video-container {
+     position: relative;
+     padding-bottom: 56.25%;
+     /*padding-top: 30px;*/
+     width: 100%;
+     /*max-width: 420px;
+     text-align: left;*/
+     height: 0;
+     overflow: hidden;
+     margin: 2%;
+}
+
+.video-container iframe, .video-container object, .video-container
+embed, .video-container video {
+     position: absolute;
+     top:0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+     .video-container {
+     position: relative;
+     padding-bottom: 56.25%;
+     width: 100%;
+     height: 0;
+     overflow: hidden;
+     }
+
+     .video-container iframe, .video-container object, .video-container
+embed, .video-container video {
+     position: absolute;
+     top:0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     }
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.sotwBox {
+  height: auto;
+  width: auto;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 2px solid black;
+  background-color: #cce7ff77;
+
+}
+
+a.class2: {color: #ef78fa;}
+a.class2:link  {text-decoration: none; color: #ef78fa;}
+a.class2:visited {text-decoration: none; color: #ef78fa;}
+a.class2:active {text-decoration: none; color: #ffb0f4;}
