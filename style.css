@@ -1,0 +1,363 @@
+
+
+@font-face {
+    src: url(fonts/Viking.ttf) format('truetype');
+    font-family: 'Viking';
+  }
+
+@font-face {
+    src: url(fonts/Viking.woff) format('woff');
+    font-family: 'Viking2';
+  }
+
+@font-face {
+    src: url(fonts/Mayhem.woff) format('woff');
+    font-family: 'Mayhem';
+  }
+
+@media (prefers-color-scheme: dark) {
+  body {
+      color: pink;
+      background: black;
+      /*background-image: url("media/bg_light.png");*/
+      background-image: url("media/shiny3.gif");
+        background-size: 100px 100px;
+  }
+
+  a:link {
+      /*color: #809fff;
+      color: #FF0000;*/
+      color: pink;
+  }
+
+  a:visited {
+      /*color: #f96e93;*/
+      color: pink;
+  }
+
+  a:active {
+      /*color: #851f00;*/
+      color: #ffe8ed;
+  }
+  a:hover {
+      /*color: #851f00;*/
+      color: #ffe8ed;
+  }
+
+}
+
+@media (prefers-color-scheme: light) {
+     body {
+         color: black;
+         background: grey;
+         /*background: linear-gradient(#9cffeb, #0dd182);*/
+           background-image: url("media/shiny4.gif");
+             background-size: 100px 100px;
+     }
+
+     a:link {
+         /*color: #809fff;
+         color: #FF0000;*/
+         color: #2e2e2e;
+     }
+
+     a:visited {
+         /*color: #f96e93;*/
+         color: #2e2e2e;
+     }
+
+     a:active {
+         /*color: #851f00;*/
+         color: #ff8c8c;
+     }
+     a:hover {
+         /*color: #851f00;*/
+         color: grey;
+     }
+
+}
+
+.gradient-silver {
+    background-color: silver;
+    background-image: linear-gradient(45deg, #ad9797, #2a2626);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;background-repeat: repeat;
+}
+
+.gradient-silver:hover {
+  color: inherit;
+  background-image: linear-gradient(45deg, lightgrey, grey);
+}
+
+.gradient-fire {
+    background-color: red;
+    background-image: linear-gradient(50deg, #ffc7dd, #fff0f5);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;background-repeat: repeat;
+
+
+
+}
+
+.gradient-fire:hover {
+    background-image: linear-gradient(50deg, black, black);
+
+
+}
+
+
+
+html {
+     font-family: serif;
+}
+
+
+
+body {
+     max-width: 920px;
+     margin-top: 2%;
+     margin-bottom: 2%;
+     margin-left: auto;
+     margin-right: auto;
+     min-height: 100vh;
+     padding-left: 2%;
+     padding-right: 2%;
+     padding-bottom: 100px;
+     position: relative;
+     height: 100%;
+
+     /*font-size: 18px;*/
+}
+
+body::after {
+    /*height: 100px;*/
+}
+
+footer {
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     text-align: center;
+     height: 100px;
+}
+
+.center {
+     text-align: center;
+}
+
+div.ind {
+     text-indent: 50px;
+}
+
+@media(min-width: 640px) {
+     .phones {
+         display: none;
+     }
+}
+
+.indented {
+     padding-left: 50pt;
+       padding-right: 50pt;
+}
+
+.index {
+     display: flex;
+}
+
+.index article {
+     flex: 1;
+}
+
+.index aside {
+     width: 23%;
+     margin-left: 2%;
+     border: 2px solid black;
+         background-image: url("media/greenlight5.png");
+
+}
+
+
+
+
+.index aside img {
+     display: block;
+     margin: auto;
+     border-radius: 5px;
+}
+
+.index aside p {
+     text-align: center;
+}
+
+.blist p {
+     font-size: .9rem;
+}
+
+.mobile_aside img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto2
+     border-radius: 5px;
+}
+
+.mobile_aside p {
+     text-align: center;
+}
+
+@media(max-width: 640px) {
+     .index aside {
+         display: none;
+     }
+}
+
+.video-container {
+     position: relative;
+     padding-bottom: 56.25%;
+     /*padding-top: 30px;*/
+     width: 100%;
+     /*max-width: 420px;
+     text-align: left;*/
+     height: 0;
+     overflow: hidden;
+     margin: 2%;
+}
+
+.video-container iframe, .video-container object, .video-container
+embed, .video-container video {
+     position: absolute;
+     top:0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+     .video-container {
+     position: relative;
+     padding-bottom: 56.25%;
+     width: 100%;
+     height: 0;
+     overflow: hidden;
+     }
+
+     .video-container iframe, .video-container object, .video-container
+embed, .video-container video {
+     position: absolute;
+     top:0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     }
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.sotwBox {
+  height: auto;
+  width: auto;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 2px solid black;
+  background-color: #cce7ff88;
+
+}
+
+a.class2: {color: #ef78fa;}
+a.class2:link  {text-decoration: none; color: #ef78fa;}
+a.class2:visited {text-decoration: none; color: #ef78fa;}
+a.class2:active {text-decoration: none; color: #ffb0f4;}
+a.class2:hover {text-decoration: none; color: #ffb0f4;}
+
+
+.fancy-link {
+  text-decoration: none;
+  background-image: linear-gradient(90deg, #ef78fa, #ffb0f4);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 0% 2px;
+  transition: background-size 300ms ease-in-out;
+
+  /* extra styling   */
+  font-weight: var(--fw-bold);
+}
+
+.fancy-link:hover {
+  background-size: 100% 2px;
+  color: inherit;
+}
+
+
+.fancy-link2 {
+  text-decoration: none;
+  background-image: linear-gradient(90deg, pink, purple);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 0% 2px;
+  transition: background-size 300ms ease-in-out;
+
+  /* extra styling   */
+  font-weight: var(--fw-bold);
+}
+
+.fancy-link2:hover {
+  background-size: 100% 2px;
+  color: inherit;
+}
+
+
+
+
+.mobilelinks {
+  display: none;
+}
+
+@media only screen and (max-width: 640px) {
+  .mobilelinks {
+    display: block;
+  }
+}
+
+
+hr.dashedaside {
+      border: 0px;
+      height: 1px;
+      background-image: linear-gradient(white, pink);
+
+}
+
+hr.blackheader {
+      border: 0px;
+      height: 1px;
+      background-image: linear-gradient(90deg, black, black);
+
+}
+
+.moveimageup { position: relative; top: -25px; }
+
+.cherrytree{
+    opacity: 0.85;
+}
+
+.orbscreen {
+  opacity: 0.75;
+
+}
+
+.cherrytree:hover{
+    opacity: 0.5;
+}
