@@ -1,0 +1,264 @@
+
+img {
+  border: 5px solid #472004;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+      color: black;
+      background: #e8d395;
+        background-size: 100px 100px;
+  }
+
+  a:link {
+      /*color: #809fff;
+      color: #FF0000;*/
+      color: black;
+  }
+
+  a:visited {
+      /*color: #f96e93;*/
+      color: black;
+  }
+
+  a:active {
+      /*color: #851f00;*/
+      color: black;
+  }
+  a:hover {
+      /*color: #851f00;*/
+      color: grey;
+  }
+
+}
+
+@media (prefers-color-scheme: light) {
+     body {
+         color: #120a01;
+         background: #ffe3bf;
+         /*background: linear-gradient(#9cffeb, #0dd182);*/
+           background-image: url("media/shiny4.gif");
+             background-size: 100px 100px;
+     }
+
+     a:link {
+         /*color: #809fff;
+         color: #FF0000;*/
+         color: #120a01;
+     }
+
+     a:visited {
+         /*color: #f96e93;*/
+         color: #120a01;
+     }
+
+     a:active {
+         /*color: #851f00;*/
+         color: #ff8c8c;
+     }
+     a:hover {
+         /*color: #851f00;*/
+         color: grey;
+     }
+
+}
+
+
+@font-face {
+font-family: "CourierNew";
+src: url("file:///Users/leodebatin/Desktop/LeoWebsites/blogsite/leosite/2022/fonts/cour.tff");
+}
+
+
+
+html {
+font-family:  courier;
+font-weight:normal;
+font-style:normal;
+line-height: 1.3;
+}
+
+
+
+body {
+     max-width: 920px;
+     margin-top: 2%;
+     margin-bottom: 2%;
+     margin-left: auto;
+     margin-right: auto;
+     min-height: 100vh;
+     padding-left: 2%;
+     padding-right: 2%;
+     padding-bottom: 100px;
+     position: relative;
+     height: 100%;
+
+     /*font-size: 18px;*/
+}
+
+body::after {
+    /*height: 100px;*/
+}
+
+footer {
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     text-align: center;
+     height: 100px;
+}
+
+.center {
+     text-align: center;
+}
+
+div.ind {
+     text-indent: 50px;
+}
+
+@media(min-width: 640px) {
+     .phones {
+         display: none;
+     }
+}
+
+.indented {
+     padding-left: 50pt;
+       padding-right: 50pt;
+}
+
+.index {
+     display: flex;
+}
+
+
+.index article {
+     flex: 1;
+}
+
+.index aside {
+     width: 23%;
+     margin-left: 2%;
+     border: 2px solid black;
+         background-image: url("media/greenlight5.png");
+
+}
+
+
+
+
+.index aside img {
+     display: block;
+     margin: auto;
+     border-radius: 5px;
+}
+
+.index aside p {
+     text-align: center;
+}
+
+.blist p {
+     font-size: .9rem;
+}
+
+.mobile_aside img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto2
+     border-radius: 5px;
+}
+
+.mobile_aside p {
+     text-align: center;
+}
+
+@media(max-width: 640px) {
+     .index aside {
+         display: none;
+     }
+}
+
+.video-container {
+     position: relative;
+     padding-bottom: 56.25%;
+     /*padding-top: 30px;*/
+     width: 100%;
+     /*max-width: 420px;
+     text-align: left;*/
+     height: 0;
+     overflow: hidden;
+     margin: 2%;
+}
+
+.video-container iframe, .video-container object, .video-container
+embed, .video-container video {
+     position: absolute;
+     top:0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+     .video-container {
+     position: relative;
+     padding-bottom: 56.25%;
+     width: 100%;
+     height: 0;
+     overflow: hidden;
+     }
+
+     .video-container iframe, .video-container object, .video-container
+embed, .video-container video {
+     position: absolute;
+     top:0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     }
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+a.class2: {color: #ba6b16;}
+a.class2:link  {text-decoration: none; color: #ba6b16;}
+a.class2:visited {text-decoration: none; color: #ba6b16;}
+a.class2:active {text-decoration: none; color: #ba6b16;}
+a.class2:hover {text-decoration: none; color: grey;}
+
+
+
+.mobilelinks {
+  display: none;
+}
+
+@media only screen and (max-width: 640px) {
+  .mobilelinks {
+    display: block;
+  }
+}
+
+
+hr.dashedaside {
+      border: 0px;
+      height: 1px;
+      background-image: linear-gradient(black, black);
+
+}
+
+hr.blackheader {
+      border: 0px;
+      height: 1px;
+      background-image: linear-gradient(90deg, black, black);
+
+}
+
+.moveimageup { position: relative; top: -25px; }
