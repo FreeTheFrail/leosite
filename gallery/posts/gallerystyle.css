@@ -53,7 +53,7 @@ font-size: 14px;
 @media (prefers-color-scheme: light) {
      body {
          color: #120a01;
-         background: #ffe3bf;
+         background: #edba77;
          /*background: linear-gradient(#9cffeb, #0dd182);*/
            background-image: url("media/shiny4.gif");
              background-size: 100px 100px;
