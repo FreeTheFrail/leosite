@@ -1,0 +1,25 @@
+
+
+Week 1:
+Website Components, pages
+Find Website Name: woodcocknaturepreserve.org / woodcocknature.org 
+
+Week 2: Homepage Designs
+
+Week 3: Revise, Pitch to Directors
+
+Week 4: Develop Homepage
+
+Week 5: Develop Pages (About, Events)
+
+Week 6: Develop Pages: (Support, Donate)
+
+Week 7: Find External Donation websites we can use
+
+Week 8: Event calendar?
+
+Week 9: Publish site. 
+
+Week 10: Analytics
+
+<p><a href="https://www.facebook.com/woodcocknaturepreserve/"><img src="media/logo/facebooklogo.png" alt="Facebook" class="symbol" style="width:35px;height:35x;"></a> <a href="https://www.instagram.com/woodcocknature/"><img src="media/logo/instagramlogo.png" alt="Instagram" class="symbol" style="width:35px;height:35x;"></a> &nbsp;</p>
